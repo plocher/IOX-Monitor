@@ -8,11 +8,12 @@
 	)
 	(paper "USLetter")
 	(title_block
-		(title "cpNode IOX Testbed")
+		(title "IOX Monitor")
 		(date "2026.07")
 		(rev "1.0A")
 		(company "SPCoast")
 		(comment 1 "John Plocher")
+		(comment 2 "IOX LED Monitor and test point breakout")
 		(comment 9 "active")
 	)
 	(layers
@@ -151,7 +152,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "Q_P-FET_2.3A_SOT-23_2301V"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "afaa24aa-97af-4521-87c4-3e2178e6c708")
@@ -200,6 +201,12 @@
 		(path "/0aca9a64-8ccd-4e80-81a1-815dcb294b06")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -565,10 +572,42 @@
 				)
 			)
 		)
+		(property "W" "100mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daf19f42-21c4-4d43-be32-e97fccda4f76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52efd4df-5d86-44f4-904c-5c05d460a187")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a1e7e6c2-e702-42d8-a14e-853bfa00144d")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -995,10 +1034,42 @@
 				)
 			)
 		)
+		(property "mcd" "Lumens"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7370467e-ccfe-4170-9171-eb61d97baa13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wavelength" "nm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "677c5d2c-b052-40bd-9e9c-1a9d14a868b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4d177d7a-d0c0-4998-9998-f52ea12b6b0d")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1736,7 +1807,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "Q_P-FET_2.3A_SOT-23_2301V"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "eed2b304-fcd6-4a44-a546-fd7406bece84")
@@ -1785,6 +1856,12 @@
 		(path "/b7384b64-d9d8-4b1f-befe-2134d22d3d51")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2150,10 +2227,42 @@
 				)
 			)
 		)
+		(property "W" "100mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bf8ee05-51d5-48a9-bc73-7eaa744b5b0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c25f53d-ebf9-4abc-aa83-17603f46d2dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5ad31339-9b82-485a-b1da-f7c63afd52b5")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2542,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "Q_P-FET_2.3A_SOT-23_2301V"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "d2cf8884-0e78-46c3-a791-471a302f51d3")
@@ -2591,6 +2700,12 @@
 		(path "/bc159d52-e724-4884-8711-30cea084f9d3")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2956,10 +3071,42 @@
 				)
 			)
 		)
+		(property "mcd" "Lumens"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eb0f8dc-b590-4034-af1b-369d6fbc6990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wavelength" "nm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e766d5c-6bcf-4806-a683-d91a55ef3e41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c3b8aba6-77e4-4ff1-88fa-3740c56fb373")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3735,10 +3882,42 @@
 				)
 			)
 		)
+		(property "W" "100mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c18c77b6-288d-4719-97ab-69391fc32346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd13c305-2da8-40e9-a852-03a2ef41fc93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0ca9df83-e584-4727-95b1-3eabfa317349")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4165,10 +4344,42 @@
 				)
 			)
 		)
+		(property "mcd" "Lumens"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad0c33cc-a93c-4796-9433-fae28ff4689f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wavelength" "nm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83a0c2e4-c464-4bd5-b2d4-6ffa7e84de9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3847b63c-b496-4dfb-a6a2-c52eac496bfe")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4944,10 +5155,42 @@
 				)
 			)
 		)
+		(property "W" "100mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86152c83-d5ef-41c3-877f-ce833af356db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b44306bc-76d8-48fe-b586-452ddcd536c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1062a7a8-aa86-4eb9-bfd2-9b5ba4eef7f1")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5336,7 +5579,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "Q_P-FET_2.3A_SOT-23_2301V"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "23ba351b-fbaf-4872-89b3-909c14f3e147")
@@ -5385,6 +5628,12 @@
 		(path "/e14c6d87-50ba-428b-89ec-de6286422eb2")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5750,10 +5999,42 @@
 				)
 			)
 		)
+		(property "W" "100mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17852d14-5950-4b6d-9f8d-cb78b5dff98f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a609549-4832-4005-98bf-0dbd2fa30d45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2e939921-6514-4ad6-8ae7-50f890a74f9f")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6180,10 +6461,42 @@
 				)
 			)
 		)
+		(property "W" "100mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63eb6f9f-b72f-4ba0-95da-1b8cb2dc6d84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d392ad77-66d1-418d-980e-7b11687e6d79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/407023b5-a47c-4df0-bfce-1f8d1be3afd2")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6572,7 +6885,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "Q_P-FET_2.3A_SOT-23_2301V"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "3f6a98c4-e024-449c-83d2-3b9eedcc4b03")
@@ -6621,6 +6934,12 @@
 		(path "/e4de4cf0-7fe7-4c96-9560-11625ee3ed37")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6948,7 +7267,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "Q_P-FET_2.3A_SOT-23_2301V"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "f321386a-b520-4769-800d-b626cacfe9a6")
@@ -6997,6 +7316,12 @@
 		(path "/0074fcfb-8e6b-4a29-a779-c49ffccea62f")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7324,7 +7649,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "Q_P-FET_2.3A_SOT-23_2301V"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "660ccaa6-ee80-451d-97c0-e5c0349803c8")
@@ -7373,6 +7698,12 @@
 		(path "/abc111c7-519c-49bb-b26e-b0dbc6bc8b83")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7738,10 +8069,42 @@
 				)
 			)
 		)
+		(property "mcd" "Lumens"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88562c8a-b09c-41e4-acbe-3a93aaf72a42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wavelength" "nm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97a1e29d-ddad-4434-a0f4-503a200edc10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/aa6546d8-a8cc-4c8f-a372-f9ec65847348")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8517,10 +8880,42 @@
 				)
 			)
 		)
+		(property "mcd" "Lumens"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "302bc73c-7749-466d-927b-ba1a8f97b24e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wavelength" "nm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c18bf5f-4780-488b-b63e-5611e6113a7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5a32405c-f597-445d-a8b0-4784328896e2")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9296,10 +9691,42 @@
 				)
 			)
 		)
+		(property "W" "100mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed301e69-4c68-45e4-b337-ba59d4aabac7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0dee8c8-6d87-4eb1-9cd3-69764efaa292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/314ec113-2379-4873-ba89-871d67d22b41")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9688,7 +10115,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2301L"
+		(property "Value" "Q_P-FET_2.3A_SOT-23_2301V"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "7dbff1d6-1690-49cb-b654-779ff2579aed")
@@ -9737,6 +10164,12 @@
 		(path "/4bf196fe-9d8f-40c5-9813-cd738f945450")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10047,14 +10480,14 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "91b63077-53e3-4dc9-9b9d-a49bdd565b87")
 		(at 146.795 91.44 -90)
-		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
-		(tags "Through hole pin header THT 1x08 2.54mm single row")
+		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.38 90)
+			(at 0 -2.77 270)
 			(layer "F.Fab")
 			(uuid "45460f86-4e24-4725-b226-9bba814882b2")
 			(effects
@@ -10065,7 +10498,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 0 20.16 90)
+			(at 0 20.55 270)
 			(layer "F.Fab")
 			(uuid "66290640-7eea-43e5-8350-a0c03a3f05bf")
 			(effects
@@ -10076,7 +10509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11ae0ac3-b179-45d2-b549-296e06c80e51")
@@ -10087,7 +10520,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f9b332c-4015-44c5-9f48-6c204e388879")
@@ -10098,7 +10531,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "04f55123-568e-43fa-89e4-88863e69edad")
@@ -10113,41 +10546,17 @@
 		(path "/e9475651-151e-4b34-a199-e0425216f0f7")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.38 19.16)
-			(end 1.38 19.16)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a9d8c867-efcf-4a5e-9ec3-17aa38dfe4e4")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 19.16)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "75ef6f7f-b179-4ec6-a22f-af390ebe88cb")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end 1.38 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f1b23919-8f23-414c-92ba-9b5332879e1d")
-		)
-		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 19.16)
+			(start -1.33 19.11)
+			(end 1.33 19.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10156,8 +10565,8 @@
 			(uuid "08fe6f47-b7e7-4d2e-84e0-ed89cd25bf81")
 		)
 		(fp_line
-			(start -1.38 0)
-			(end -1.38 -1.38)
+			(start -1.33 1.27)
+			(end -1.33 19.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10166,8 +10575,28 @@
 			(uuid "49b73d98-59aa-4cd7-8327-d418f3152d0c")
 		)
 		(fp_line
-			(start -1.38 -1.38)
-			(end 0 -1.38)
+			(start -1.33 1.27)
+			(end 1.33 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f1b23919-8f23-414c-92ba-9b5332879e1d")
+		)
+		(fp_line
+			(start 1.33 1.27)
+			(end 1.33 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75ef6f7f-b179-4ec6-a22f-af390ebe88cb")
+		)
+		(fp_line
+			(start 0 -1.33)
+			(end 1.33 -1.33)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10175,20 +10604,59 @@
 			(layer "F.SilkS")
 			(uuid "378b21cc-3766-452f-a6f9-1c40dabdd5f4")
 		)
-		(fp_rect
+		(fp_line
+			(start 1.33 -1.33)
+			(end 1.33 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a9d8c867-efcf-4a5e-9ec3-17aa38dfe4e4")
+		)
+		(fp_line
+			(start -1.77 19.55)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "505ed797-55aa-4353-9ae8-b375b3f0d93a")
+		)
+		(fp_line
+			(start 1.77 19.55)
+			(end -1.77 19.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "10e0d383-53fa-483e-8654-280e8b943ae4")
+		)
+		(fp_line
 			(start -1.77 -1.77)
+			(end 1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "047c647d-657c-49f5-9756-32237dcfb023")
+		)
+		(fp_line
+			(start 1.77 -1.77)
 			(end 1.77 19.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "29f1741f-7da5-4df7-affd-4c731f677447")
+			(uuid "b93204a4-8d14-413f-a3e5-f2f210ef0eb3")
 		)
 		(fp_line
 			(start -1.27 19.05)
-			(end -1.27 -0.635)
+			(end -1.27 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -10207,8 +10675,18 @@
 			(uuid "3f2bbb47-02e8-4919-a1d2-8e28bb94fc19")
 		)
 		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
+			(start 1.27 -0.635)
+			(end 1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01a44853-ed6d-48ed-b505-7d8c5e967532")
+		)
+		(fp_line
+			(start -1.27 -1.27)
+			(end 0.635 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -10217,24 +10695,14 @@
 			(uuid "457fc28a-c560-4181-8fee-25357ea21ef2")
 		)
 		(fp_line
-			(start -0.635 -1.27)
-			(end 1.27 -1.27)
+			(start 0.635 -1.27)
+			(end 1.27 -0.635)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
 			(uuid "6372b06b-1c91-4cff-bbd9-4b3f465d3b3b")
-		)
-		(fp_line
-			(start 1.27 -1.27)
-			(end 1.27 19.05)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "01a44853-ed6d-48ed-b505-7d8c5e967532")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 8.89 0)
@@ -10336,7 +10804,7 @@
 			(uuid "94033e0f-8589-4fda-a253-22ab790d1c9b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10403,10 +10871,42 @@
 				)
 			)
 		)
+		(property "mcd" "Lumens"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04eff75b-8115-4765-b1b3-552e4cfe4c12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wavelength" "nm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1de0f684-fe08-44b8-b341-52a450d80d67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d181e06a-a683-41ae-8ba4-3d93fee231bd")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11182,10 +11682,42 @@
 				)
 			)
 		)
+		(property "W" "100mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e735358a-b995-4e74-815f-4debb0df5e86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1630fdcf-a7c2-43b5-b570-59bf6dae5844")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/47ce8dad-c0fe-49b8-b073-d09ee7525d87")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11557,14 +12089,14 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d06edd5a-f4c6-4b19-a0e0-7e9f5c2d0b3f")
 		(at 146.795 93.98 -90)
-		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
-		(tags "Through hole pin header THT 1x08 2.54mm single row")
+		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.38 90)
+			(at 0 -2.77 270)
 			(layer "F.Fab")
 			(uuid "059d6f6b-d395-4cfd-a543-829bb9fbdfc3")
 			(effects
@@ -11575,7 +12107,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 0 20.16 90)
+			(at 0 20.55 270)
 			(layer "F.Fab")
 			(uuid "4a44f113-0528-43b9-a60a-0bd6965ab8af")
 			(effects
@@ -11586,7 +12118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a89f1316-908b-4610-8cb6-397fb7f56ae5")
@@ -11597,7 +12129,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c4d6012c-21d4-42fb-8801-5a8ef45f7ab0")
@@ -11608,7 +12140,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "44149aec-a80e-46c5-88c9-bcb75477fbb0")
@@ -11623,31 +12155,17 @@
 		(path "/064bef63-5dc1-4907-ac5c-9d67f7a3cb56")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.38 19.16)
-			(end 1.38 19.16)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "77e2133f-84c6-4553-bc4c-a460ad933454")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 19.16)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3549844a-8357-4e89-a17f-3801b8bdab95")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end 1.38 1.27)
+			(start -1.33 19.11)
+			(end 1.33 19.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11656,18 +12174,8 @@
 			(uuid "1cb1a823-3bfe-4fd8-bcdd-a5b70dd312ba")
 		)
 		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 19.16)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fb77bb88-b41e-48ad-b2c8-b96592784cbf")
-		)
-		(fp_line
-			(start -1.38 0)
-			(end -1.38 -1.38)
+			(start -1.33 1.27)
+			(end -1.33 19.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11676,8 +12184,8 @@
 			(uuid "f0f58844-3cdf-49af-8a33-9671e9b00a78")
 		)
 		(fp_line
-			(start -1.38 -1.38)
-			(end 0 -1.38)
+			(start -1.33 1.27)
+			(end 1.33 1.27)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11685,20 +12193,79 @@
 			(layer "F.SilkS")
 			(uuid "79c5dac4-2236-4f32-94e8-d71f579b508d")
 		)
-		(fp_rect
+		(fp_line
+			(start 1.33 1.27)
+			(end 1.33 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3549844a-8357-4e89-a17f-3801b8bdab95")
+		)
+		(fp_line
+			(start 0 -1.33)
+			(end 1.33 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fb77bb88-b41e-48ad-b2c8-b96592784cbf")
+		)
+		(fp_line
+			(start 1.33 -1.33)
+			(end 1.33 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "77e2133f-84c6-4553-bc4c-a460ad933454")
+		)
+		(fp_line
+			(start -1.77 19.55)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0bc8fdd0-123b-4ad5-a2ce-48ae31b855f1")
+		)
+		(fp_line
+			(start 1.77 19.55)
+			(end -1.77 19.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7fcf526c-dd1f-4b71-b130-d63e7c338922")
+		)
+		(fp_line
 			(start -1.77 -1.77)
+			(end 1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e1f7db06-b743-4007-aeb0-ec018c19aaa6")
+		)
+		(fp_line
+			(start 1.77 -1.77)
 			(end 1.77 19.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "a5f94c24-d149-4c77-a117-eeb6d0bd1b94")
+			(uuid "49b1210a-94ba-4a52-8603-ea61c4782021")
 		)
 		(fp_line
 			(start -1.27 19.05)
-			(end -1.27 -0.635)
+			(end -1.27 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -11717,18 +12284,18 @@
 			(uuid "1d02013d-964c-4d9d-ab54-dacf8cbc444d")
 		)
 		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
+			(start 1.27 -0.635)
+			(end 1.27 19.05)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a71f50db-260e-4cdd-8225-19edad8732d2")
+			(uuid "1bd89167-78b7-4fcb-b7cc-b07ed685feff")
 		)
 		(fp_line
-			(start -0.635 -1.27)
-			(end 1.27 -1.27)
+			(start -1.27 -1.27)
+			(end 0.635 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -11737,14 +12304,14 @@
 			(uuid "5d49d15b-6380-414c-8355-e13432d7aa34")
 		)
 		(fp_line
-			(start 1.27 -1.27)
-			(end 1.27 19.05)
+			(start 0.635 -1.27)
+			(end 1.27 -0.635)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1bd89167-78b7-4fcb-b7cc-b07ed685feff")
+			(uuid "a71f50db-260e-4cdd-8225-19edad8732d2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 8.89 0)
@@ -11846,7 +12413,7 @@
 			(uuid "eba1df96-8f49-4cd1-a714-e3294f8d6a90")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11913,10 +12480,42 @@
 				)
 			)
 		)
+		(property "mcd" "Lumens"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f5b0fee-4041-4148-b6c3-b12df3f52f38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wavelength" "nm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cb90370-c347-4a5b-ab4f-6235d9ec4849")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5d4acf21-6b39-4c58-9089-51bc72b6f06d")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12637,14 +13236,14 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f413424f-86e3-4bd6-8025-d145b0b0a377")
 		(at 146.795 88.9 -90)
-		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
-		(tags "Through hole pin header THT 1x08 2.54mm single row")
+		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.38 90)
+			(at 0 -2.77 270)
 			(layer "F.Fab")
 			(uuid "0ff8e704-3cb6-4442-8f7b-7c2b7012b81c")
 			(effects
@@ -12655,7 +13254,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 0 20.16 90)
+			(at 0 20.55 270)
 			(layer "F.Fab")
 			(uuid "f4167ef7-8009-4fd9-848e-96a8c2538d10")
 			(effects
@@ -12666,7 +13265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8dfef1e1-be3c-4f9c-a347-7dd2054aa962")
@@ -12677,7 +13276,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df9e46e1-23e1-494f-810c-051cd95c941d")
@@ -12688,7 +13287,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "48d112bd-85ea-4e9d-be7b-954e63c806ba")
@@ -12703,41 +13302,17 @@
 		(path "/9bf4a2e9-dc5e-4104-bbda-764fdd5f1e75")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.38 19.16)
-			(end 1.38 19.16)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d5ab9075-4b00-4674-8840-4752b8263b3d")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 19.16)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "240d83eb-346c-4937-b6d2-8370af5d7833")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end 1.38 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1b291a86-10e8-4ffe-b27a-dd663d6a3d39")
-		)
-		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 19.16)
+			(start -1.33 19.11)
+			(end 1.33 19.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12746,8 +13321,38 @@
 			(uuid "0221e859-043a-42f8-ac8c-34c165f3ccb9")
 		)
 		(fp_line
-			(start -1.38 0)
-			(end -1.38 -1.38)
+			(start -1.33 1.27)
+			(end -1.33 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5ab9075-4b00-4674-8840-4752b8263b3d")
+		)
+		(fp_line
+			(start -1.33 1.27)
+			(end 1.33 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "240d83eb-346c-4937-b6d2-8370af5d7833")
+		)
+		(fp_line
+			(start 1.33 1.27)
+			(end 1.33 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1b291a86-10e8-4ffe-b27a-dd663d6a3d39")
+		)
+		(fp_line
+			(start 0 -1.33)
+			(end 1.33 -1.33)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12756,8 +13361,8 @@
 			(uuid "a87e8ea0-b44a-4fd3-9262-645558de53d0")
 		)
 		(fp_line
-			(start -1.38 -1.38)
-			(end 0 -1.38)
+			(start 1.33 -1.33)
+			(end 1.33 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12765,20 +13370,49 @@
 			(layer "F.SilkS")
 			(uuid "225df036-6fb4-4d62-b23f-bb2e9a76ee77")
 		)
-		(fp_rect
+		(fp_line
+			(start -1.77 19.55)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7f23a848-e7c5-4e6f-b0fd-441e92dc6a55")
+		)
+		(fp_line
+			(start 1.77 19.55)
+			(end -1.77 19.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "de384a8b-8fcb-4519-8c97-87ec82dee2d2")
+		)
+		(fp_line
 			(start -1.77 -1.77)
+			(end 1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "671572bf-3776-440e-a0d4-1819b3ec43d1")
+		)
+		(fp_line
+			(start 1.77 -1.77)
 			(end 1.77 19.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "13a39f23-c278-40b8-ad8b-9f6ea8751e12")
+			(uuid "f145e845-0f73-4bdd-b441-380a47eb981f")
 		)
 		(fp_line
 			(start -1.27 19.05)
-			(end -1.27 -0.635)
+			(end -1.27 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12797,18 +13431,18 @@
 			(uuid "e763d757-c229-4165-857f-c25e0c317963")
 		)
 		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
+			(start 1.27 -0.635)
+			(end 1.27 19.05)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d1adc74d-215d-49a3-8acb-0ff68ef91c2b")
+			(uuid "8a664ba1-e6a5-4b67-ac12-a73f187b6c0a")
 		)
 		(fp_line
-			(start -0.635 -1.27)
-			(end 1.27 -1.27)
+			(start -1.27 -1.27)
+			(end 0.635 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12817,14 +13451,14 @@
 			(uuid "c63ed7ea-60f2-4238-9894-cc02ec185d21")
 		)
 		(fp_line
-			(start 1.27 -1.27)
-			(end 1.27 19.05)
+			(start 0.635 -1.27)
+			(end 1.27 -0.635)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8a664ba1-e6a5-4b67-ac12-a73f187b6c0a")
+			(uuid "d1adc74d-215d-49a3-8acb-0ff68ef91c2b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 8.89 0)
@@ -12926,7 +13560,7 @@
 			(uuid "9122a433-4fea-4488-a0ca-056041fa37ba")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12993,10 +13627,42 @@
 				)
 			)
 		)
+		(property "mcd" "Lumens"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ccd0839-c9f4-47ed-8fcf-8771951486b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Wavelength" "nm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b458792-f5a7-4b2a-b463-6a0811cd15f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/dd375e9d-4406-4ea3-8712-6ea7bc47834e")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13788,6 +14454,12 @@
 		(path "/3337568c-f9c7-41a9-b73e-06840501ca4a")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14029,6 +14701,12 @@
 		(path "/32a44be5-0e67-4c68-aa71-bef054abd32e")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14336,6 +15014,12 @@
 		(path "/aa6d1032-80ac-4d4a-a2a6-97e0a313ed9e")
 		(sheetname "/")
 		(sheetfile "IOX_Monitor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
