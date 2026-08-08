@@ -18342,13 +18342,6 @@
 			)
 		)
 	)
-	(group "IOX Plugin"
-		(uuid "99f84c96-8cf9-4ff3-b903-ec15d2d1179f")
-		(lib_id "MRCS_IOX_Plugin:IOX Plugin")
-		(members "56cd13c9-8b63-4947-a9eb-abb49ec22a27" "56d3edf2-4f48-488a-b784-00383fcdbeed"
-			"95bf573a-d16f-4be4-ac84-96fdc3839330" "bf5e4893-dc8b-4631-9517-8a83c1f4c5ce"
-		)
-	)
 	(embedded_fonts no)
 	(embedded_files
 		(file
